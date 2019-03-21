@@ -11,5 +11,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://service2:8089/eureka/
-#    fetch-registry: false
-#    register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
