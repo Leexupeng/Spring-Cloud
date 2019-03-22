@@ -13,3 +13,5 @@ eureka:
       defaultZone: http://service2:8089/eureka/
     fetch-registry: true
     register-with-eureka: true
+  server:
+    enable-self-preservation: false
